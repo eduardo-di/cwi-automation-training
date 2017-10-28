@@ -5,8 +5,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import br.com.cwi.automation_training.util.TestRule;
 
-public class TreinamentoPage extends TreinamentoElementMap {
-
+public class TreinamentoPage extends TreinamentoElementMap{
+	
 	public TreinamentoPage() {
 		PageFactory.initElements(TestRule.getDriver(), this);
 	}	
