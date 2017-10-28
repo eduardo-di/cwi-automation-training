@@ -8,7 +8,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "classpath:features", tags = "@treinamento",
+@CucumberOptions(features = "classpath:features", tags = "@treinamento1",
 	  glue = {""}, monochrome = true, dryRun = false)
 public class TreinamentoTest {
 
